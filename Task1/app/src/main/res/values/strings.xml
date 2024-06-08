@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Task1</string>
+    <string name="heading">Heading</string>
+    <string name="name">Name</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="college">College</string>
+    <string name="enter_your_college">Enter your college</string>
+    <string name="contact">Contact</string>
+    <string name="enter_your_contact">Enter your contact</string>
+    <string name="email">Email</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="button">Submit</string>
+    <string name="enter_you_department">Enter your department</string>
 </resources>

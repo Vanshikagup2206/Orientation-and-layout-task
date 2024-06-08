@@ -26,15 +26,17 @@ class MainActivity : AppCompatActivity() {
         studyField = findViewById(R.id.studyField)
 
 
+
         click?.setOnClickListener {
-            Toast.makeText(this, "Successfully submitted", Toast.LENGTH_LONG).show()
-        }
-        click?.setOnClickListener {
+
             if(contact?.text.toString().trim().isNullOrEmpty()){
                 contact?.error="Enter your number"
             }
             else if(contact?.text.toString().trim().length<10){
                 contact?.error="Enter a valid number"
+            }
+            else{
+                Toast.makeText(this,"Successfully submitted",Toast.LENGTH_LONG).show()
             }
         }
         rbYes?.setOnCheckedChangeListener { buttonView, isChecked ->

@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:padding="10pt"
+    android:padding="@dimen/dp_10"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -18,13 +18,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:padding="5sp">
+    android:padding="@dimen/dp_5">
 <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="@string/name"
-    android:textSize="25sp"
-    android:padding="10dp"
+    android:textSize="@dimen/sp_25"
+    android:padding="@dimen/dp_10"
     android:textAlignment="center"
     />
 <EditText
@@ -32,7 +32,7 @@
     android:layout_height="wrap_content"
     android:hint="@string/enter_your_name"
     android:inputType="textPersonName|textCapWords"
-    android:textSize="25sp"
+    android:textSize="@dimen/sp_25"
     android:textAlignment="center" />
 </LinearLayout>
 <LinearLayout
@@ -43,14 +43,14 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="@string/college"
-    android:textSize="25sp"
-    android:padding="10dp"
+    android:textSize="@dimen/sp_25"
+    android:padding="@dimen/dp_10"
     android:textAlignment="center"/>
 <EditText
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:hint="@string/enter_your_college"
-    android:textSize="25sp"
+    android:textSize="@dimen/sp_25"
     android:inputType="textPersonName"
     android:textAlignment="center"/>
 
@@ -64,15 +64,15 @@
     android:layout_height="wrap_content"
     android:text="@string/contact"
     android:textAlignment="center"
-    android:padding="10dp"
-    android:textSize="25sp"/>
+    android:padding="@dimen/dp_10"
+    android:textSize="@dimen/sp_25"/>
 <EditText
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:hint="@string/enter_your_contact"
     android:inputType="number"
     android:maxLength="10"
-    android:textSize="25sp"
+    android:textSize="@dimen/sp_25"
     android:id="@+id/contact"
     android:textAlignment="center"/>
 
@@ -85,13 +85,13 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="@string/email"
-    android:padding="10dp"
-    android:textSize="25sp"/>
+    android:padding="@dimen/dp_10"
+    android:textSize="@dimen/sp_25"/>
 <EditText
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:hint="@string/enter_your_email"
-    android:textSize="25sp"
+    android:textSize="@dimen/sp_25"
     android:inputType="textEmailAddress"
     android:textAlignment="center"/>
 </LinearLayout>
@@ -100,21 +100,21 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:gravity="center"
-    android:padding="10dp">
+    android:padding="@dimen/dp_10">
 <RadioButton
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:text="@string/yes"
-    android:padding="10dp"
-    android:textSize="20sp"
+    android:padding="@dimen/dp_10"
+    android:textSize="@dimen/sp_20"
     android:id="@+id/rbYes"
     />
 <RadioButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="@string/no"
-    android:padding="10dp"
-    android:textSize="20sp"
+    android:padding="@dimen/dp_10"
+    android:textSize="@dimen/sp_20"
     android:id="@+id/rbNo"
     />
 </RadioGroup>
@@ -123,12 +123,13 @@
     android:layout_height="wrap_content"
     android:hint="@string/enter_you_department"
     android:id="@+id/studyField"
+    android:textSize="@dimen/sp_25"
     android:visibility="invisible"/>
 <Button
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="@string/button"
-    android:textSize="30sp"
+    android:textSize="@dimen/sp_30"
     android:layout_gravity="center"
     android:id="@+id/button"/>
 </LinearLayout>

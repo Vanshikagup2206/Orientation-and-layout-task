@@ -13,4 +13,5 @@
     <string name="no">No</string>
     <string name="button">Submit</string>
     <string name="enter_you_department">Enter your department</string>
+    <string name="are_you_a_college_student">Are you a college student?</string>
 </resources>

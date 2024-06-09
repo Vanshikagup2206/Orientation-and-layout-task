@@ -32,8 +32,8 @@ class MainActivity : AppCompatActivity() {
             if(contact?.text.toString().trim().isNullOrEmpty()){
                 contact?.error="Enter your number"
             }
-            else if(contact?.text.toString().trim().length<10){
-                contact?.error="Enter a valid number"
+            else if(contact?.text.toString().trim().length<10) {
+                contact?.error = "Enter a valid number"
             }
             else{
                 Toast.makeText(this,"Successfully submitted",Toast.LENGTH_LONG).show()

@@ -14,4 +14,9 @@
     <string name="button">Submit</string>
     <string name="enter_you_department">Enter your department</string>
     <string name="are_you_a_college_student">Are you a college student?</string>
+    <string name="next">Next</string>
+    <string name="next_page">Next Page</string>
+    <string name="enter_your_number">Enter your number</string>
+    <string name="enter_a_valid_number">Enter a valid number</string>
+    <string name="fill_this">Fill this</string>
 </resources>

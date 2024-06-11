@@ -49,13 +49,9 @@ class MainActivity : AppCompatActivity() {
             }
             else if(contact?.text.toString().trim().length<10) {
                 contact?.error = resources.getString(R.string.enter_a_valid_number)
+            }else if((contact?.text?.toString()?.trim()?.get(0)?.toInt()?:0)<6) {
+                contact?.error = resources.getString(R.string.enter_a_valid_number)
             }
-//            else if(contact?.text.toString().trim().rangeTo(6){
-//                when(contact[0]){
-//                    "0","1","2","3","4","5"->contact?.error = "Start the number with (6-9)"
-//                    else->print("valid")
-//                }
-//            }
             else if(etEmail?.text.toString().trim().isNullOrEmpty()){
                 etEmail?.error=resources.getString(R.string.enter_your_email)
             }
